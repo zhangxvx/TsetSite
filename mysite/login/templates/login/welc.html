@@ -1,0 +1,33 @@
+{% load static %}
+<style>
+    body {
+        background: #ffffff;
+        background:url("{% static 'login/images/h.jpg'%}") no-repeat;
+        background-size: cover;
+    }
+
+    h1 {
+        text-align: center
+    }
+</style>
+<h1>Welcome! {{username}}​​</h1>
+<ul>
+    <li>
+        <h2>user information:</h2>
+    </li>
+    <ul>
+        <li>
+            <h2>userid:{{userid}}</h2>
+        </li>
+        <li>
+            <h2>username:{{username}}</h2>
+        </li>
+        <li>
+            <h2>email:{{email}}</h2>
+        </li>
+        <li>
+            <h2>password:{{password}}</h2>
+        </li>
+    </ul>
+
+</ul>

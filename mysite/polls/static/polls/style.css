@@ -1,0 +1,10 @@
+body{
+    background-color: #e0dfdf ;
+    background-image: url("images/h.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+li a {
+    font-size: xx-large;
+    color: #00ff00;
+}

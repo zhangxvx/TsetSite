@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级系统</title>
+</head>
+<body>
+    <h1>数据库信息</h1>
+    <h2>班级数据统计</h2>
+
+    <ul>
+        {% for gradess in gradess %}
+            <li>{{ gradess.ganme }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>

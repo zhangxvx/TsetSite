@@ -1,0 +1,136 @@
+body {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    background: #ffffff;
+    background:url("../images/h.jpg") no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.title {
+    margin: auto;
+    margin-left: 100px;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    left: 100px;
+}
+
+.login {
+    position: relative;
+    left:50%;
+    width: 400px;
+    height: 400px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    border: 3px solid #eeeeee;
+}
+
+.form {
+    padding: 10px 30px;
+}
+
+/* .image-left {
+    position: absolute;
+    left: 100px;
+    margin-left: 100px;
+    border: #eeeeee;
+} */
+
+glyphicon {
+    vertical-align: middle;
+    width: 20px;
+    display: inline-block;
+}
+
+.glyphicon {
+    color: #666666;
+}
+
+.form-control {
+    width: 340px;
+    display: inline-block;
+}
+
+.auto-login {
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.auto-login-check {
+    vertical-align: text-bottom;
+}
+
+.forget {
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: 200px;
+}
+
+.btn-login {
+    width: 340px;
+    margin-left: 20px;
+}
+
+.phone-login {
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+
+.more-login {
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: 150px;
+    margin-top: 10px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.more-login:focus {
+    outline: none;
+}
+
+.more-login-img {
+    margin-left: 40%;
+    margin-right: auto;
+    /* display: none; */
+}
+
+.more-login-img>a {
+    margin-left: 20px;
+}
+
+.register {
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}

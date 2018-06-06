@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    /* section{
+        display: inline;
+    } */
+    </style>
+</head>
+
+<body>
+    <h1>{{string}}</h1>
+    <section>教程列表：
+        <ul>
+            {% for i in tutorialList %}
+            <li>{{ i }} </li>
+            {% endfor %}
+        </ul>
+    </section>
+    <section>
+        站点：{{inforDict.site}} 内容:{{inforDict.content}}
+        <br> {% for key, value in info_dict.items %} {{ key }}: {{ value }} {% endfor %}
+    </section>
+
+    <section>{{ request.user }}</section>
+    <a href="{{ request.path }}?{{ request.GET.urlencode              }}&delete=1">当前网址加参数 delete</a>
+    {{ request.path }}{{ request.GET.urlencode }}
+    <iframe src="http://www.baidu.com" width="100%" height="100%"></iframe>
+</body>
+
+</html>
